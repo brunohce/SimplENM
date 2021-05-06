@@ -31,6 +31,8 @@
 ################### set working directory ###################
 setwd('~/Documentos/sdm')
 
+
+# To run multiple species configure for
 # lista.sp <- list.files('./data/records_post/', pattern = 'csv$', full.names = T)
 # 
 # for (j in lista.sp){
