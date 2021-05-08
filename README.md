@@ -19,9 +19,8 @@ For my project i used current climate and four future scenarios, so:
 
 All you have to do is **set the variables and records path and it's good to go!** You should look into the tuning parameters, though, specially lines:
 
-<details><summary>Parameters:</summary>
-    <pre>
 
+```
 113 randomBgSites <- dismo::randomPoints(current, 10000)
 
 185 tunedModel <- trainMaxNet(data=trainData,
@@ -35,9 +34,8 @@ All you have to do is **set the variables and records path and it's good to go!*
 242 p95 <- round(length(occPredVals) * 0.95)
 
 376 buffered.mcp.records <- raster::buffer(mcp.records, width = 200*km )
+```
 
- </pre>
-   </details>
 
 
 Basically to run need a root folder with the following structure
