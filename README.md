@@ -6,15 +6,19 @@
 
 I've tried to comment the code as much as possible but you can write me if you have any doubts @didelphisaurita 
 
+
 It is quite a simple script, nothing much sofisticated but it works :) I believe it can be particularly interesting for beginners and intermediate level R users as it doesn't have lots of complicated functions, if any, it's pretty straightfoward. 
 
 
 
 All you have to do is set the variables and records path and it's good to go! (Althought you should look into the tuning parameters) 
 
+
 For my project i used current climate and four future scenarios, if you want to use less you just have to delete the exceding scenarios lines, if you want to run more scenarios you just have to copy, paste and change the names.
 
+
 Basically to run need a root folder with the following structure
+
 
 <details><summary>Structure:</summary>
     <pre>
