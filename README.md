@@ -7,10 +7,14 @@
 I've tried to comment the code as much as possible but you can write me if you have any doubts or suggestions @didelphisaurita 
 
 
-It is quite a simple script, nothing much sofisticated but it works :) I believe it can be particularly interesting for beginners and intermediate level R users as it doesn't have lots of complicated functions, if any, it's pretty straightfoward. 
+It is quite a simple script, nothing much sofisticated but it works :) I believe it can be particularly **interesting for beginners and intermediate level R users** as it doesn't have lots of complicated functions, if any, it's pretty straightfoward. 
 
 
-For my project i used current climate and four future scenarios, so if you want to use less scenarios you just have to delete the corresponding blocks of code, if you want to run more scenarios you just have to copy, paste and change object's names so it doesn't overwrite other scenario's objects.
+For my project i used current climate and four future scenarios, so:
+
+1) If you want to use less scenarios you just have to delete the corresponding blocks of code 
+
+2) if you want to run more scenarios you just have to copy, paste and change object's names so it doesn't overwrite other scenario's objects.
 
 
 All you have to do is set the variables and records path and it's good to go! (Althought you should look into the tuning parameters) 
