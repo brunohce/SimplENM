@@ -13,7 +13,7 @@ For my project i used current climate and four future scenarios, so, for each sc
 2) if you want to run more scenarios you just have to copy, paste and change object's names so it doesn't overwrite other scenario's objects.
 
 
-All you have to do is **set the variables and records path and it's good to go!** You should look into the tuning parameters, though, I will mention them latter<br><br>
+The basic requirements to run the script is to **set the variables and records path and it's good to go!** You should look into the tuning parameters, though, I will mention them latter<br><br>
 To run the script you'll need a data folder in your working directory/root folder, the result folders are created automatically. The structure of data folder is as follows (you can also see sdmfolder_example.zip file):
 
 
