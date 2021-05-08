@@ -76,9 +76,12 @@ I believe that the parameters that you should pay the most attention while fine 
 </pre>
    </details>
    
-  I chose a KFold=5 partioning of the data so there are 5 models for each scenario/species.
+
   
-The output consists of:
+### The output consists of:
+
+I chose a KFold=5 partioning of the data so there are 5 models for each scenario/species. 
+
  ```
 1.Records and background points with a KFold ID
 2.Rdata on each model
