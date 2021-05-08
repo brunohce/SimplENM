@@ -1,3 +1,5 @@
+#Bruno Evaldt's ENMini script 
+
 # Installing packages
 
 #If Ubuntu system run in terminal 
@@ -10,7 +12,7 @@
 
 
 #Restart R
-# install.packages('devtools')
+# install.packages('devtools');
 # install.packages('dismo')
 # install.packages('raster')
 # install.packages('maxnet')
