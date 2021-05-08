@@ -46,5 +46,7 @@ So, basically to run need a root folder with the following structure
    
 Elevation and mask are optional
     1)  If you don't want to extract elevation, you can remove/comment the part of the script that computes elevation or just run it anyway, you'll get an error message but everything else should work just fine.
+    
+    
     2)  
 
