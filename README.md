@@ -45,7 +45,7 @@ To run the script you'll need a data folder in your working directory/root folde
 
 **Elevation is actually optional**. If you don't want to extract elevation, you can remove/comment the part of the script that computes elevation or just run it anyway, you'll get lots of error messages but everything else should work just fine.
 
-I believe that the parameters that you should pay the most attention to fine tune are the following (but do check everything):
+I believe that the parameters that you should pay the most attention while fine tuning are the following (but check the whole script):
 
 
 <details><summary>Parameters:</summary>
@@ -75,5 +75,22 @@ I believe that the parameters that you should pay the most attention to fine tun
 
 </pre>
    </details>
+   
+  I chose a KFold=5 partioning of the data so there are 5 models for each scenario/species.
   
+  The output consists of:
   
+  1) Rdata on each model
+  2) Tuning parameters for each models
+  3) Continous Maxent models
+  4) Variance of the continous models
+  5) Metrics of evaluation:CBI, TSS and AUC
+  6) Threshold values 
+  7) CBI weighted mean ensemble model
+  8) Thresholded prediction
+  9) 
+
+  
+  I use . I use CBI as the main metric and to weight means, and TSS and AUC as better than random metrics.
+  
+  For each 
