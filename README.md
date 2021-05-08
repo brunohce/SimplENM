@@ -8,7 +8,12 @@ It is quite a simple script, nothing much sofisticated but it works :)
 
 I've tried to comment the code as much as possible but you can write me if you have any doubts @didelphisaurita 
 
-So, basically to run need a root folder with the following structure:
+So, basically to run need a root folder with the following structure
+
+<details><summary>Structure:</summary>
+    <pre>
+
+```console
 
 ├── Data
 │   ├── elev
@@ -34,4 +39,8 @@ So, basically to run need a root folder with the following structure:
 │       ├── records_lhq
 │       │   ├── Records Akodon cursor.csv
 │       │   ├── Records Akodon montensis.csv
+
+```
+ </pre>
+   </details>
 
