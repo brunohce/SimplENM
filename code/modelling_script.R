@@ -9,22 +9,12 @@
 #If Fedora
 #sudo dnf -y install gdal gdal-devel libcurl libcurl-devel udunits2-devel openssl-devel libxml2-devel geos-devel proj proj-devel -y
 
-
-
 #Restart R
-# install.packages('devtools');
-# install.packages('dismo')
-# install.packages('raster')
-# install.packages('maxnet')
-# install.packages('rgdal')
-# install.packages('rgeos')
-# install.packages('geosphere')
-# install.packages('scales')
-# install.packages('adehabitatHR')
-# devtools::install_github("YaohuiZeng/grpregOverlap")
-# devtools::install_github('adamlilith/omnibus', host = "https://api.github.com")
-# devtools::install_github('adamlilith/legendary')
-# # devtools::install_github('adamlilith/enmSdm')
+# install.packages('devtools');install.packages('dismo');install.packages('raster');
+# install.packages('maxnet');install.packages('rgdal');install.packages('rgeos');
+# install.packages('geosphere');install.packages('scales');install.packages('adehabitatHR')
+# devtools::install_github("YaohuiZeng/grpregOverlap");devtools::install_github('adamlilith/omnibus', host = "https://api.github.com")
+# devtools::install_github('adamlilith/legendary');devtools::install_github('adamlilith/enmSdm')
 
 # load packages
 # library(dismo); library(maxnet);library(raster); library(rgeos);library(geosphere);library(rgdal);
