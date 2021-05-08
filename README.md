@@ -21,8 +21,11 @@ All you have to do is **set the variables and records path and it's good to go!*
 
 
 ```
+# Number of background points, in my case 10K
 113 randomBgSites <- dismo::randomPoints(current, 10000)
 
+#Minimum, maximum and intervals of master regularization (regMult)
+#Classes of features (classes)
 185 tunedModel <- trainMaxNet(data=trainData,
                             regMult= c(seq(1, 4, by = 0.5)),
                             verbose=F,
@@ -31,8 +34,10 @@ All you have to do is **set the variables and records path and it's good to go!*
                             clamp=T,
 191                         out = c('model', 'tuning'))
 
+#Threshold of suitability, in my case 5% lowest values = 0.95 
 242 p95 <- round(length(occPredVals) * 0.95)
 
+#Distance from species MCP to cut off, in my case 200 km
 376 buffered.mcp.records <- raster::buffer(mcp.records, width = 200*km )
 ```
 
