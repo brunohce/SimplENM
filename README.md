@@ -2,8 +2,10 @@
 
 # My script to run ENM using Maxent algorithm!
 
-#### README work in progress but feel free to explore the script<br><br>
-I've tried to comment on the code as much as possible but you can write me if you have any doubts or suggestions @didelphisaurita on twitter.
+#### README work in progress but feel free to explore the script
+#### This script doesn't include pre-analysis steps such as data occurrence acquisition, area of calibration definition, variable selection, etc. You must do all these before proceeding.
+
+I've tried to comment on the code as much as possible but you can write me if you have any doubts or suggestions @didelphisaurita on Twitter.
 
 It is quite a simple script, nothing much sophisticated but it works :) I believe it can be particularly **interesting for beginners and intermediate level R users** as it doesn't have lots of complicated functions, if any, it's pretty straightforward. You may have to manually install some of the packages, I had some trouble installing some of them through devtools:install_github(). <br><br>
 
