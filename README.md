@@ -20,7 +20,7 @@ For my project i used current climate and four future scenarios, so:
 All you have to do is **set the variables and records path and it's good to go!** You should look into the tuning parameters, though, specially lines:
 
 
-```
+```ruby
 # Number of background points, in my case 10K
 113 randomBgSites <- dismo::randomPoints(current, 10000)
 
@@ -39,7 +39,7 @@ All you have to do is **set the variables and records path and it's good to go!*
 
 #Distance from species MCP to cut off, in my case 200 km
 376 buffered.mcp.records <- raster::buffer(mcp.records, width = 200*km )
-```
+```ruby
 
 
 
