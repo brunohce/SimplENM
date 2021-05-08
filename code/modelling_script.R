@@ -32,7 +32,7 @@
 setwd('~/Documentos/sdm')
 
 
-# To run multiple species configure for
+# To run multiple species configure 'for' and add a '}' to the end of the script
 # lista.sp <- list.files('./data/records_post/', pattern = 'csv$', full.names = T)
 # 
 # for (j in lista.sp){
@@ -78,7 +78,7 @@ predictors <- names(current)
 
 ################### records ###################
 # load records
-records <- read.csv(j, header=T, sep=',')
+records <- read.csv('.data/records/records.csv', header=T, sep=',')
 records <- enmSdm::elimCellDups(records, current[[1]], longLat=c('lon', 'lat'))
 records <- na.omit(records)
 nrecords <- nrow(records)
