@@ -5,8 +5,8 @@
 #### README work in progress but feel free to explore the script<br><br>
 I've tried to comment on the code as much as possible but you can write me if you have any doubts or suggestions @didelphisaurita 
 
-It is quite a simple script, nothing much sophisticated but hey, it works. I believe it can be particularly **interesting for beginners and intermediate level R users** as it doesn't have lots of complicated functions, if any, it's pretty straightforward. You may have to manually install some of the packages, I had some trouble installing some of them through devtools:install_github() <br><br>
-For my project I used the current climate and four future scenarios, so, for each scenario, there's a corresponding block of code. I didn't use loops because I had far less experience when I wrote the script and kept this way to keep it simple for those of us who are not masters of coding :)
+It is quite a simple script, nothing much sophisticated but it works :) I believe it can be particularly **interesting for beginners and intermediate level R users** as it doesn't have lots of complicated functions, if any, it's pretty straightforward. You may have to manually install some of the packages, I had some trouble installing some of them through devtools:install_github() <br><br>
+For my project I used the current climate and four future scenarios, so, for each scenario, there's a corresponding block of code. I didn't use loops because I had far less experience when I wrote the script and kept this way to keep it simple.
 1) If you want to use fewer scenarios you just have to delete the corresponding blocks of code 
 
 2) if you want to run more scenarios you just have to copy, paste and change the object's names so it doesn't overwrite other scenario's objects.
