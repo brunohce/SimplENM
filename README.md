@@ -5,7 +5,7 @@
 #### README work in progress but feel free to explore the script<br><br>
 I've tried to comment on the code as much as possible but you can write me if you have any doubts or suggestions @didelphisaurita 
 
-It is quite a simple script, nothing much sophisticated but it works :) I believe it can be particularly **interesting for beginners and intermediate level R users** as it doesn't have lots of complicated functions, if any, it's pretty straightforward. You may have to manually install some of the packages, I had some trouble installing the ones using devtools:install_github() <br><br>
+It is quite a simple script, nothing much sophisticated but it works :) I believe it can be particularly **interesting for beginners and intermediate level R users** as it doesn't have lots of complicated functions, if any, it's pretty straightforward. You may have to manually install some of the packages, I had some trouble installing some of them through devtools:install_github() <br><br>
 For my project I used the current climate and four future scenarios, so, for each scenario, there's a corresponding block of code. 
 
 1) If you want to use fewer scenarios you just have to delete the corresponding blocks of code 
