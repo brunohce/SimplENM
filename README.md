@@ -3,16 +3,19 @@
 # My script to run ENM using Maxent algorithm!
 
 #### README work in progress but feel free to explore the script<br><br>
-I've tried to comment on the code as much as possible but you can write me if you have any doubts or suggestions @didelphisaurita 
+I've tried to comment on the code as much as possible but you can write me if you have any doubts or suggestions @didelphisaurita on twitter.
 
-It is quite a simple script, nothing much sophisticated but it works :) I believe it can be particularly **interesting for beginners and intermediate level R users** as it doesn't have lots of complicated functions, if any, it's pretty straightforward. You may have to manually install some of the packages, I had some trouble installing some of them through devtools:install_github() <br><br>
+It is quite a simple script, nothing much sophisticated but it works :) I believe it can be particularly **interesting for beginners and intermediate level R users** as it doesn't have lots of complicated functions, if any, it's pretty straightforward. You may have to manually install some of the packages, I had some trouble installing some of them through devtools:install_github(). <br><br>
+
 For my project I used the current climate and four future scenarios, so, for each scenario, there's a corresponding block of code. I didn't use loops because I had far less experience when I wrote the script and kept this way to keep the script simple.
-1) If you want to use fewer scenarios you just have to delete the corresponding blocks of code 
+
+1) If you want to use fewer scenarios you just have to delete the corresponding blocks of code. 
 
 2) if you want to run more scenarios you just have to copy, paste and change the object's names so it doesn't overwrite other scenario's objects.
 
 
-The basic requirements to run the script is to **set the variables and records path and it's good to go!** You should look into the tuning parameters, though, I will mention them later <br><br>
+The basic requirements to run the script is to **set the variables and records path and it's good to go!** You should look into the tuning parameters, though, I will mention them later. <br><br>
+
 To run the script you'll need a data folder in your working directory/root folder, the result folders are created automatically. The structure of the data folder is as follows (you can also see sdmfolder_example.zip file):
 
 
@@ -98,5 +101,5 @@ I chose a KFold=5 partitioning of the data so there are 5 models for each scenar
   
 I use CBI as the main metric and to weight means, and TSS and AUC as better than random metrics.
 
-### I guess that's the basic you need to run the script
+### I guess that's the basic you need to run the script. Again, if you have any doubts or suggestions write to me @didelphisaurita
   
