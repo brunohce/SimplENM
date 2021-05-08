@@ -18,23 +18,17 @@ So, basically to run need a root folder with the following structure
 ├── Data
 │   ├── elev
 │   │   └── elevation.tif
-│   ├── masks
-│   │   ├── calibration_area_shape.dbf
-│   │   ├── calibration_area_shape.dbf
-│   │   ├── calibration_area_shape.prj
-│   │   ├── calibration_area_shape.shp
-│   │   ├── calibration_area_shape.shx
 │   ├── raster
 │   │   ├── current
-│   │   │   ├── BIO01.tif
+│   │   │   ├── variables.tif
 │   │   ├── RCP26
-│   │   │   ├── BIO01.tif
+│   │   │   ├── variables.tif
 │   │   ├── RCP45
-│   │   │   ├── BIO01.tif
+│   │   │   ├── variables.tif
 │   │   ├── RCP60
-│   │   │   ├── BIO01.tif
+│   │   │   ├── variables.tif
 │   │   └── RCP85
-│   │   │   ├── BIO01.tif
+│   │   │   ├── variables.tif
 │   └── records
 │       ├── records_lhq
 │       │   ├── Records Akodon cursor.csv
@@ -44,9 +38,5 @@ So, basically to run need a root folder with the following structure
  </pre>
    </details>
    
-Elevation and mask are optional
-    1)  If you don't want to extract elevation, you can remove/comment the part of the script that computes elevation or just run it anyway, you'll get an error message but everything else should work just fine.
-    
-    
-    2)  
-
+Elevation is actually optional. If you don't want to extract elevation, you can remove/comment the part of the script that computes elevation or just run it anyway, you'll get lots of error messages but everything else should work just fine.
+   
