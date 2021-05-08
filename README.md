@@ -46,14 +46,17 @@ To run the script you only need a data folder in your working directory/root fol
 │       ├── records_species1.csv
 
 ```
- </pre>
+</pre>
    </details>
    
 Elevation is actually optional. If you don't want to extract elevation, you can remove/comment the part of the script that computes elevation or just run it anyway, you'll get lots of error messages but everything else should work just fine.
 
 
+<details><summary>Parameters:</summary>
+    <pre>
 
-```
+
+```ruby
 # Number of background points, in my case 10K
 113 randomBgSites <- dismo::randomPoints(current, 10000)
 
@@ -71,7 +74,9 @@ Elevation is actually optional. If you don't want to extract elevation, you can 
 242 p95 <- round(length(occPredVals) * 0.95)
 
 #Distance from species MCP to cut off, in my case 200 km
-376 buffered.mcp.records <- raster::buffer(mcp.records, width = 200*km )
+376 buffered.mcp.records <- raster::buffer(mcp.records, width = 200*km 
 ```
 
+</pre>
+   </details>
    
