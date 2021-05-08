@@ -17,8 +17,27 @@ For my project i used current climate and four future scenarios, so:
 2) if you want to run more scenarios you just have to copy, paste and change object's names so it doesn't overwrite other scenario's objects.
 
 
-All you have to do is set the variables and records path and it's good to go! (Althought you should look into the tuning parameters) 
+All you have to do is **set the variables and records path and it's good to go!** You should look into the tuning parameters, though, specially lines:
 
+<details><summary>Parameters:</summary>
+    <pre>
+
+113 randomBgSites <- dismo::randomPoints(current, 10000)
+
+185 tunedModel <- trainMaxNet(data=trainData,
+                            regMult= c(seq(1, 4, by = 0.5)),
+                            verbose=F,
+                            classes = "lqh",
+                            testClasses=TRUE,
+                            clamp=T,
+191                         out = c('model', 'tuning'))
+
+242 p95 <- round(length(occPredVals) * 0.95)
+
+376 buffered.mcp.records <- raster::buffer(mcp.records, width = 200*km )
+
+ </pre>
+   </details>
 
 
 Basically to run need a root folder with the following structure
