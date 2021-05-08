@@ -43,4 +43,7 @@ So, basically to run need a root folder with the following structure
 ```
  </pre>
    </details>
+   
+Elevation and mask are optional if you don't want to:
+1) Extract elevation, so you can remove/comment the part of the script that computes elevation (or just 
 
