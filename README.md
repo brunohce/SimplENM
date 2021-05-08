@@ -45,6 +45,8 @@ To run the script you'll need a data folder in your working directory/root folde
 
 **Elevation is actually optional**. If you don't want to extract elevation, you can remove/comment the part of the script that computes elevation or just run it anyway, you'll get lots of error messages but everything else should work just fine.
 
+I believe that the parameters that you should pay the most attention to fine tune are the following (but do check everything):
+
 
 <details><summary>Parameters:</summary>
     <pre>
@@ -73,4 +75,5 @@ To run the script you'll need a data folder in your working directory/root folde
 
 </pre>
    </details>
-   
+  
+  
