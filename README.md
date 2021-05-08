@@ -4,7 +4,7 @@
 
 **My script to run ENM using Maxent alghoritm!**
 
-I've tried to comment the code as much as possible but you can write me if you have any doubts @didelphisaurita 
+I've tried to comment the code as much as possible but you can write me if you have any doubts or suggestions @didelphisaurita 
 
 
 It is quite a simple script, nothing much sofisticated but it works :) I believe it can be particularly interesting for beginners and intermediate level R users as it doesn't have lots of complicated functions, if any, it's pretty straightfoward. 
