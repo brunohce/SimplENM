@@ -83,7 +83,7 @@ I believe that the parameters that you should pay the most attention to while fi
 I chose a KFold=5 partitioning of the data so there are 5 models for each scenario/species. 
 
  ```
-1.Records and background points with a KFold ID
+1.Records and background points files with a KFold ID
 2.Rdata on each model
 3.Tuning parameters for each model
 4.Continous Maxent models
