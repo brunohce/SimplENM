@@ -4,11 +4,14 @@
 
 **My script to run ENM using Maxent alghoritm!**
 
-It is quite a simple script, nothing much sofisticated but it works :)
-
 I've tried to comment the code as much as possible but you can write me if you have any doubts @didelphisaurita 
 
-So, basically to run need a root folder with the following structure
+It is quite a simple script, nothing much sofisticated but it works :) I believe it can be particularly interesting for beginners and intermediate level R users as it doesn't have lots of complicated functions, if any, it's pretty straightfoward. 
+
+
+All you have to do is set the variables and records path and it's good to go!
+
+Basically to run need a root folder with the following structure
 
 <details><summary>Structure:</summary>
     <pre>
