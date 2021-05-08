@@ -1,20 +1,20 @@
 <img src="https://user-images.githubusercontent.com/52681915/117520421-7b0b2480-af7e-11eb-8456-9dd8280120f0.png" width="1200" height="300">
 
-# My script to run ENM using Maxent alghoritm!
+# My script to run ENM using Maxent algorithm!
 
 #### README work in progress but feel free to explore the script<br><br>
-I've tried to comment the code as much as possible but you can write me if you have any doubts or suggestions @didelphisaurita 
+I've tried to comment on the code as much as possible but you can write me if you have any doubts or suggestions @didelphisaurita 
 
-It is quite a simple script, nothing much sofisticated but it works :) I believe it can be particularly **interesting for beginners and intermediate level R users** as it doesn't have lots of complicated functions, if any, it's pretty straightfoward. You may have to manually install some of the packages, I had some trouble installing the ones using devtools:install_github() <br><br>
-For my project i used current climate and four future scenarios, so, for each scenario there's a corresponding block of code. 
+It is quite a simple script, nothing much sophisticated but it works :) I believe it can be particularly **interesting for beginners and intermediate level R users** as it doesn't have lots of complicated functions, if any, it's pretty straightforward. You may have to manually install some of the packages, I had some trouble installing the ones using devtools:install_github() <br><br>
+For my project I used the current climate and four future scenarios, so, for each scenario, there's a corresponding block of code. 
 
-1) If you want to use less scenarios you just have to delete the corresponding blocks of code 
+1) If you want to use fewer scenarios you just have to delete the corresponding blocks of code 
 
-2) if you want to run more scenarios you just have to copy, paste and change object's names so it doesn't overwrite other scenario's objects.
+2) if you want to run more scenarios you just have to copy, paste and change the object's names so it doesn't overwrite other scenario's objects.
 
 
-The basic requirements to run the script is to **set the variables and records path and it's good to go!** You should look into the tuning parameters, though, I will mention them latter<br><br>
-To run the script you'll need a data folder in your working directory/root folder, the result folders are created automatically. The structure of data folder is as follows (you can also see sdmfolder_example.zip file):
+The basic requirements to run the script is to **set the variables and records path and it's good to go!** You should look into the tuning parameters, though, I will mention them later <br><br>
+To run the script you'll need a data folder in your working directory/root folder, the result folders are created automatically. The structure of the data folder is as follows (you can also see sdmfolder_example.zip file):
 
 
 <details><summary>Structure:</summary>
@@ -43,9 +43,9 @@ To run the script you'll need a data folder in your working directory/root folde
 </pre>
    </details>
 
-**Elevation is actually optional**. If you don't want to extract elevation, you can remove/comment the part of the script that computes elevation or just run it anyway, you'll get lots of error messages but everything else should work just fine.
+**Elevation is actually optional**. If you don't want to extract elevation, you can remove/comment on the part of the script that computes elevation or just run it anyway, you'll get lots of error messages but everything else should work just fine.
 
-I believe that the parameters that you should pay the most attention while fine tuning are the following (but check the whole script):
+I believe that the parameters that you should pay the most attention to while fine-tuning are the following (but check the whole script):
 
 
 <details><summary>Parameters:</summary>
@@ -80,22 +80,24 @@ I believe that the parameters that you should pay the most attention while fine 
   
 ### The output consists of:
 
-I chose a KFold=5 partioning of the data so there are 5 models for each scenario/species. 
+I chose a KFold=5 partitioning of the data so there are 5 models for each scenario/species. 
 
  ```
 1.Records and background points with a KFold ID
 2.Rdata on each model
 3.Tuning parameters for each model
 4.Continous Maxent models
-5.Variance of the continous models
-6.Metrics of evaluation:CBI, TSS and AUC
+5.Variance of the continuous models
+6.Metrics of evaluation: CBI, TSS, and AUC
 7.Threshold values
 8.CBI weighted mean ensemble model
 9.Thresholded model
 10.Area and elevation of the thresholded models
-11.Log file with species names, number of records, metrics and threshold values
+11.Log file with species names, number of records, metrics, and threshold values
 ```
 
   
 I use CBI as the main metric and to weight means, and TSS and AUC as better than random metrics.
+
+### I guess that's the basic you need to run the script
   
