@@ -2,7 +2,8 @@
 
 # My script to run ENM using Maxent alghoritm!
 
-## README WORK IN PROGRESS but feel free to run the script
+#### README work in progress but feel free to explore the script
+
 
 
 I've tried to comment the code as much as possible but you can write me if you have any doubts or suggestions @didelphisaurita 
