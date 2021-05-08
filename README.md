@@ -2,14 +2,10 @@
 
 # My script to run ENM using Maxent alghoritm!
 
-#### README work in progress but feel free to explore the script
-<br><br>
+#### README work in progress but feel free to explore the script<br><br>
 I've tried to comment the code as much as possible but you can write me if you have any doubts or suggestions @didelphisaurita 
 
-
-It is quite a simple script, nothing much sofisticated but it works :) I believe it can be particularly **interesting for beginners and intermediate level R users** as it doesn't have lots of complicated functions, if any, it's pretty straightfoward. 
-<br><br>
-
+It is quite a simple script, nothing much sofisticated but it works :) I believe it can be particularly **interesting for beginners and intermediate level R users** as it doesn't have lots of complicated functions, if any, it's pretty straightfoward. <br><br>
 For my project i used current climate and four future scenarios, so, for each scenario there's a corresponding block of code. 
 
 1) If you want to use less scenarios you just have to delete the corresponding blocks of code 
@@ -17,9 +13,7 @@ For my project i used current climate and four future scenarios, so, for each sc
 2) if you want to run more scenarios you just have to copy, paste and change object's names so it doesn't overwrite other scenario's objects.
 
 
-All you have to do is **set the variables and records path and it's good to go!** You should look into the tuning parameters, though, I will mention them latter.
-
-<br><br>
+All you have to do is **set the variables and records path and it's good to go!** You should look into the tuning parameters, though, I will mention them latter<br><br>
 To run the script you'll need a data folder in your working directory/root folder, the result folders are created automatically. The structure of data folder is as follows (you can also see sdmfolder_example.zip file):
 
 
