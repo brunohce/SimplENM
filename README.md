@@ -22,23 +22,23 @@ To run the script you'll need a data folder in your working directory/root folde
 
 ```console
 
-├── data
-│   ├── elev
-│   │   └── elevation.tif
-│   ├── raster
-│   │   ├── current
-│   │   │   ├── variables.tif
-│   │   ├── RCP26
-│   │   │   ├── variables.tif
-│   │   ├── RCP45
-│   │   │   ├── variables.tif
-│   │   ├── RCP60
-│   │   │   ├── variables.tif
-│   │   └── RCP85
-│   │   │   ├── variables.tif
-│   └── records
-│       ├── records_species1.csv
-
+├── sdm_example
+│   └── data
+│       ├── elev
+|       |   └── elevation.tif
+│       ├── raster
+│       │   ├── current
+|       |   |   └── variables.tif
+│       │   ├── RCP26
+|       |   |   └── variables.tif
+│       │   ├── RCP45
+|       |   |   └── variables.tif
+│       │   ├── RCP60
+|       |   |   └── variables.tif
+│       │   └── RCP85
+|       |   |   └── variables.tif
+│       └── records
+            └── records.csv
 ```
 </pre>
    </details>
