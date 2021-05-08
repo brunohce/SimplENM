@@ -5,7 +5,7 @@
 #### README work in progress but feel free to explore the script
 
 #### It is a short yet complete script to run ENMs, hence its name
-#### This script doesn't include pre-analysis steps (I will try to include scripts for them ASAP) such as data occurrence acquisition, area of calibration definition, variable selection, etc. You must do these steps before proceeding.
+#### This script doesn't include pre-analysis steps such as data occurrence acquisition, area of calibration definition, variable selection, etc (I will try to include scripts for them ASAP). You must do these steps before proceeding.
 
 I've tried to comment on the code as much as possible but you can write me if you have any doubts or suggestions @didelphisaurita on Twitter.
 
