@@ -80,17 +80,17 @@ I believe that the parameters that you should pay the most attention while fine 
   
   The output consists of:
   
-1)Records and background points with a KFold ID
-2)  Rdata on each model
-3) Tuning parameters for each model
-4) Continous Maxent models
-5) Variance of the continous models
-6) Metrics of evaluation:CBI, TSS and AUC
-7) Threshold values 
-8) CBI weighted mean ensemble model
-9) Thresholded model
-10) Area and elevation of the thresholded models
-11) Log file with species names, number of records, metrics and threshold values
+1.Records and background points with a KFold ID
+2.Rdata on each model
+3.Tuning parameters for each model
+4.Continous Maxent models
+5.Variance of the continous models
+6.Metrics of evaluation:CBI, TSS and AUC
+7.Threshold values 
+8.CBI weighted mean ensemble model
+9.Thresholded model
+10.Area and elevation of the thresholded models
+11.Log file with species names, number of records, metrics and threshold values
 
   
 I use CBI as the main metric and to weight means, and TSS and AUC as better than random metrics.
