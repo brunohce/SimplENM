@@ -43,7 +43,7 @@ All you have to do is **set the variables and records path and it's good to go!*
 
 
 
-Basically to run need a root folder with the following structure
+To run the script you need a root folder with the following structure
 
 
 <details><summary>Structure:</summary>
@@ -51,7 +51,7 @@ Basically to run need a root folder with the following structure
 
 ```console
 
-├── Data
+├── data
 │   ├── elev
 │   │   └── elevation.tif
 │   ├── raster
