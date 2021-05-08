@@ -18,7 +18,7 @@ For my project i used current climate and four future scenarios, so, for each sc
 All you have to do is **set the variables and records path and it's good to go!** You should look into the tuning parameters, though, I will mention them latter.
 
 
-To run the script you'll need a data folder in your working directory/root folder (see sdm_example.zip file), the result folders are created automatically. The structure of data folder is as follows:
+To run the script you'll need a data folder in your working directory/root folder (see sdmfolder_example.zip file), the result folders are created automatically. The structure of data folder is as follows:
 
 
 <details><summary>Structure:</summary>
