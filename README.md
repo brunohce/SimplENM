@@ -2,6 +2,9 @@
 
 # My script to run ENM using Maxent alghoritm!
 
+## README WORK IN PROGRESS but feel free to run the script
+
+
 I've tried to comment the code as much as possible but you can write me if you have any doubts or suggestions @didelphisaurita 
 
 
@@ -47,10 +50,8 @@ To run the script you'll need a data folder in your working directory/root folde
 </pre>
    </details>
    
-Elevation is actually optional. If you don't want to extract elevation, you can remove/comment the part of the script that computes elevation or just run it anyway, you'll get lots of error messages but everything else should work just fine.
+**Elevation is actually optional**. If you don't want to extract elevation, you can remove/comment the part of the script that computes elevation or just run it anyway, you'll get lots of error messages but everything else should work just fine.
 
-
-**README WORK IN PROGRESS**
 
 <details><summary>Parameters:</summary>
     <pre>
