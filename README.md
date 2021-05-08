@@ -1,6 +1,6 @@
 <img src="https://user-images.githubusercontent.com/52681915/117520421-7b0b2480-af7e-11eb-8456-9dd8280120f0.png" width="1200" height="300">
 
-# My script to run ENM using Maxent algorithm!
+# My script to run ENM using Maxent algorithm on R!
 
 #### README work in progress but feel free to explore the script
 #### This script doesn't include pre-analysis steps such as data occurrence acquisition, area of calibration definition, variable selection, etc. You must do  these steps before proceeding.
