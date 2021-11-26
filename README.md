@@ -105,5 +105,5 @@ I chose a KFold=5 partitioning of the data so there are 5 models for each scenar
   
 I use CBI as the main metric and to weight means, and TSS and AUC as better than random metrics.
 
-### I guess that's the basic you need to run the script. Again, if you have any doubts or suggestions write to me @didelphisaurita
+### I guess that's the basic you need to run the script. Again, if you have any doubts or suggestions write to me brunohcevaldt@gmail.com
   
